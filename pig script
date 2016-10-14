@@ -3,3 +3,6 @@ a = load 'sample.txt' ;
 b = filter a by $0;
 - dump c;
 store b into '/home/onkar';
+
+c = foreach a generate $0;
+dump c
