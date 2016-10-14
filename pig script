@@ -1,4 +1,4 @@
-
+this is the pig script
 a = load 'sample.txt' ;
 b = filter a by $0;
 - dump c;
